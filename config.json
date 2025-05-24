@@ -1,0 +1,86 @@
+{
+  "exchange_id": "binance",
+  "exchange_options": {
+    "defaultType": "future",
+    "enableRateLimit": true,
+    "newOrderRespType": "RESULT"
+  },
+  "secrets_file": "secret.json",
+  "control_file": "control.json",
+  "log_file": "logs/trading_bot.log",
+  "log_level": "INFO",
+  "state_dir": "states",
+  "main_loop_delay_seconds": 60,
+  "active_bots": {
+    "btc": {
+      "enabled": true,
+      "module_path": "coins.btc_bot",
+      "class_name": "BTCBot",
+      "symbol": "BTC/USDT",
+      "loop_delay_seconds": 60,
+      "max_restart_attempts": 5,
+      "restart_backoff_seconds": 120,
+      "strategy_params": {
+        "envelope_percent": 0.07,
+        "stop_loss_percent": 0.04,
+        "take_profit_percent": 0.08
+      }
+    },
+    "eth": {
+      "enabled": true,
+      "module_path": "coins.eth_bot",
+      "class_name": "ETHBot",
+      "symbol": "ETH/USDT",
+      "loop_delay_seconds": 60,
+      "max_restart_attempts": 3,
+      "restart_backoff_seconds": 180,
+      "strategy_params": {
+        "envelope_percent": 0.07,
+        "stop_loss_percent": 0.05,
+        "take_profit_percent": 0.10
+      }
+    },
+    "sol": {
+      "enabled": true,
+      "module_path": "coins.sol_bot",
+      "class_name": "SOLBot",
+      "symbol": "SOL/USDT",
+      "loop_delay_seconds": 60,
+      "max_restart_attempts": 3,
+      "restart_backoff_seconds": 180,
+      "strategy_params": {
+        "envelope_percent": 0.09,
+        "stop_loss_percent": 0.06,
+        "take_profit_percent": 0.12
+      }
+    },
+    "xrp": {
+      "enabled": true,
+      "module_path": "coins.xrp_bot",
+      "class_name": "XRPBot",
+      "symbol": "XRP/USDT",
+      "loop_delay_seconds": 60,
+      "max_restart_attempts": 3,
+      "restart_backoff_seconds": 180,
+      "strategy_params": {
+        "envelope_percent": 0.11,
+        "stop_loss_percent": 0.07,
+        "take_profit_percent": 0.14
+      }
+    },
+    "doge": {
+      "enabled": true,
+      "module_path": "coins.doge_bot",
+      "class_name": "DOGEBot",
+      "symbol": "DOGE/USDT",
+      "loop_delay_seconds": 60,
+      "max_restart_attempts": 3,
+      "restart_backoff_seconds": 180,
+      "strategy_params": {
+        "envelope_percent": 0.15,
+        "stop_loss_percent": 0.10,
+        "take_profit_percent": 0.20
+      }
+    }
+  }
+}

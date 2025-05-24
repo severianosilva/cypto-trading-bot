@@ -1,0 +1,39 @@
+2025-05-24 13:19:07,605 - root - INFO - ✅ Logging configurado.
+2025-05-24 13:19:07,606 - utils.config_loader - ERROR - Erro ao decodificar JSON em config.json: Expecting ',' delimiter: line 83 column 8 (char 2261)
+2025-05-24 13:19:07,606 - __main__ - CRITICAL - Falha ao carregar config.json. Encerrando.
+2025-05-24 13:19:52,827 - root - INFO - ✅ Logging configurado.
+2025-05-24 13:19:52,828 - utils.config_loader - ERROR - Erro ao decodificar JSON em config.json: Expecting ',' delimiter: line 83 column 8 (char 2261)
+2025-05-24 13:19:52,828 - __main__ - CRITICAL - Falha ao carregar config.json. Encerrando.
+2025-05-24 13:27:44,838 - root - INFO - ✅ Logging configurado.
+2025-05-24 13:27:52,201 - __main__ - INFO - Conexão com binance bem-sucedida.
+2025-05-24 13:27:52,201 - __main__ - INFO - 🚀 Iniciando Trading Bot...
+2025-05-24 13:27:52,202 - __main__ - INFO - Iniciando bot btc
+2025-05-24 13:27:54,974 - utils.config_loader - ERROR - Arquivo states/btc_state.json não encontrado.
+2025-05-24 13:27:54,977 - coins.base_bot - INFO - [btc] BTCBot inicializado com parâmetros: {'envelope_percent': 0.07, 'stop_loss_percent': 0.04, 'take_profit_percent': 0.08}
+2025-05-24 13:27:54,984 - __main__ - INFO - Bot btc iniciado com sucesso.
+2025-05-24 13:27:54,984 - __main__ - INFO - Iniciando bot eth
+2025-05-24 13:27:54,989 - utils.config_loader - ERROR - Arquivo states/eth_state.json não encontrado.
+2025-05-24 13:27:54,989 - coins.base_bot - INFO - [eth] ETHBot inicializado com parâmetros: {'envelope_percent': 0.07, 'stop_loss_percent': 0.05, 'take_profit_percent': 0.1}
+2025-05-24 13:27:54,992 - __main__ - INFO - Bot eth iniciado com sucesso.
+2025-05-24 13:27:54,992 - __main__ - INFO - Iniciando bot sol
+2025-05-24 13:27:54,995 - utils.config_loader - ERROR - Arquivo states/sol_state.json não encontrado.
+2025-05-24 13:27:54,996 - coins.base_bot - INFO - [sol] SOLBot inicializado com parâmetros: {'envelope_percent': 0.09, 'stop_loss_percent': 0.06, 'take_profit_percent': 0.12}
+2025-05-24 13:27:54,996 - __main__ - INFO - Bot sol iniciado com sucesso.
+2025-05-24 13:27:54,997 - __main__ - INFO - Iniciando bot xrp
+2025-05-24 13:27:54,999 - utils.config_loader - ERROR - Arquivo states/xrp_state.json não encontrado.
+2025-05-24 13:27:55,000 - coins.base_bot - INFO - [xrp] XRPBot inicializado com parâmetros: {'envelope_percent': 0.11, 'stop_loss_percent': 0.07, 'take_profit_percent': 0.14}
+2025-05-24 13:27:55,002 - __main__ - INFO - Bot xrp iniciado com sucesso.
+2025-05-24 13:27:55,003 - __main__ - INFO - Iniciando bot doge
+2025-05-24 13:27:55,007 - utils.config_loader - ERROR - Arquivo states/doge_state.json não encontrado.
+2025-05-24 13:27:55,008 - coins.base_bot - INFO - [doge] DOGEBot inicializado com parâmetros: {'envelope_percent': 0.15, 'stop_loss_percent': 0.1, 'take_profit_percent': 0.2}
+2025-05-24 13:27:55,008 - __main__ - INFO - Bot doge iniciado com sucesso.
+2025-05-24 13:27:55,305 - coins.base_bot - INFO - [btc] ⚪ NEUTRO | Preço: 108814.30 | SMA: 109528.86
+2025-05-24 13:27:55,419 - coins.base_bot - INFO - [sol] ⚪ NEUTRO | Preço: 175.83 | SMA: 178.56
+2025-05-24 13:27:55,436 - coins.base_bot - INFO - [xrp] ⚪ NEUTRO | Preço: 2.349100 | SMA: 2.379308
+2025-05-24 13:27:55,446 - coins.base_bot - INFO - [eth] ⚪ NEUTRO | Preço: 2551.36 | SMA: 2597.69
+2025-05-24 13:27:55,458 - coins.base_bot - INFO - [doge] ⚪ NEUTRO | Preço: 0.226920 | SMA: 0.235744
+2025-05-24 13:28:55,595 - coins.base_bot - INFO - [btc] ⚪ NEUTRO | Preço: 108699.00 | SMA: 109526.55
+2025-05-24 13:28:55,719 - coins.base_bot - INFO - [sol] ⚪ NEUTRO | Preço: 175.61 | SMA: 178.56
+2025-05-24 13:28:55,818 - coins.base_bot - INFO - [xrp] ⚪ NEUTRO | Preço: 2.346300 | SMA: 2.379252
+2025-05-24 13:28:55,829 - coins.base_bot - INFO - [eth] ⚪ NEUTRO | Preço: 2547.92 | SMA: 2597.62
+2025-05-24 13:28:55,887 - coins.base_bot - INFO - [doge] ⚪ NEUTRO | Preço: 0.226430 | SMA: 0.235734
